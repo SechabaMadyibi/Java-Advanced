@@ -15,6 +15,7 @@ public class NetworkClientCallable implements Callable<RequestResponse> {
 
     @Override
     public RequestResponse call() throws IOException {
+         //Creates a stream socket and connects it to the specified port number on the named host.
         try (Socket sock = new Socket(lookup.host, lookup.port);
                 Scanner scanner = new Scanner(sock.getInputStream())) {
             lookup.response = scanner.next();

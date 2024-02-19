@@ -32,6 +32,7 @@ public class PriceRangeServer implements Runnable {
                     return;
                 }
                 bw.write(price);
+
             } catch (SocketTimeoutException ste) {
                 //timeout every .25 seconds to see if interrupted
             }
