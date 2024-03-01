@@ -3,7 +3,7 @@ package Practice6_3;
 public class LambdaTest {
   public static void main(String[] args) {
     String[] strList01 = 
-      {"tomorrow","toto","to","timbukto","the","hello","heat"};
+      {"tomorrow","toto","to","timbukto","the", "","heat"};
     
     AnalyzerTool stringTool = new AnalyzerTool();
     String searchStr = "to";

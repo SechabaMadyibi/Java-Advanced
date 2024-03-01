@@ -11,7 +11,7 @@ public class TestLambda {
 
     public static void main(String[] args) {
         String[] strList01 =
-                {"tomorrow","toto","to","timbukto","the","hello","heat"};
+                {"tomorrow","toto","to","timbukto","the", "","heat"};
         String searchStr = "to";
         System.out.println("Searching for: " + searchStr);
 
